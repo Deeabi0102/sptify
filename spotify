@@ -26,3 +26,217 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="spotifycontainer.css">
+    <link rel="stylesheet" href="spotifyheader.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        body{
+            margin: 0%;
+            padding: 0px;
+        }
+    </style>
+
+</head>
+<body>
+      <header class="header">
+        <div class="header1"></div>
+        <div class="header2">PROFILE NAME</div>
+      </header>
+
+   <div class="container">
+    <div class="playlist">
+        <div class="song1"></div>
+        <div class="song2"> 
+            <div class="title">Title</div>
+            <div class="title">SubTit…
+soptify.html
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.playlist{
+    background-color: rgb(33, 235, 26);
+    height: 15%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 3px;
+}
+
+.song1{
+     background-color: blue;
+     height: 80%;
+     width: 100px;
+}
+
+.song2{
+    height: 80%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+container.css
+.header{
+    background-color: red;
+    height: 75px;
+    width:100vw;
+    display: flex;
+    align-items: center;
+}
+
+.header1{
+    height: 80%;
+    width:60px;
+    background-color: aqua;
+    border-radius: 100px; 
+}
+.footer{
+    background-color: red;
+    height: 75px;
+    width:100vw;
+}
+[12:06 am, 26/4/2024] Selva Kumar Kgisl: body {
+    font-family:Gill Sans,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images.jpeg);
+    height: 375px;
+    width: 667px;
+    display: flex;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    background-color:aqua;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+        box-shadow: 0 0 10px rgba(204, 9, 116, 0.815);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+} 
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #c20cda;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    background-color: #14843c;
+}
+[12:07 am, 26/4/2024] Selva Kumar Kgisl: body {
+    font-family:Gill Sans,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    margin: 126px auto;
+    background-color:aqua;
+    padding: 20px;
+    border-radius: 5px;
+        box-shadow: 0 0 10px rgba(204, 9, 116, 0.815);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+} 
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #c20cda;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+}
+
+button:hover {
+    background-color: #14843c;
+}
+[12:07 am, 26/4/2024] Selva Kumar Kgisl: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Login</title>
+    <link rel="stylesheet" href="spotifysignup.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style>SignUp to Spotify</h1>
+        <form>
+            <div class="form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter  UserName">
+            </div>
+            <div class="form">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            </div>
+            <button type="submit">Signup</button>
+        </form>
+    </div>
+</body>
+</html>
